@@ -18,9 +18,9 @@ inc index
 loop end
 
 if even == odd
-print "true"
+print "Yes"
 
 else
-print "false"
+print "No"
 
 end
