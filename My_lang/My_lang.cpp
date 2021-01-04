@@ -146,20 +146,18 @@ void my_main(std::string& line)
 
 
 
-//int main(int argc, char** argv)
-int main()
+int main(int argc, char** argv)
 {
 	std::string line;
 	std::ifstream My_file;
 
-	//if (argv[1] == nullptr)
-	//{
-	//	std::cout << "Unable to execute: Wrong path or file format\n";
-	//	return 0;
-	//}
+	if (argv[1] == nullptr)
+	{
+		std::cout << "Unable to execute: Wrong path or file format\n";
+		return 0;
+	}
 
-	//My_file.open(argv[1]);
-	My_file.open("C:\\Users\\yegan\\Desktop\\My_lang.txt");
+	My_file.open(argv[1]);
 
 	if (My_file.is_open())
 	{
