@@ -3,7 +3,7 @@
 #include <string>
 #include "My_type.h"
 
-std::vector<My_type*> variables;
+std::vector<My_type*> variables; // vector of declared variables
 
 void get_words(std::vector<std::string>& words, const std::string& line)
 {

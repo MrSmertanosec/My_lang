@@ -16,7 +16,6 @@ odd = odd + last_num
 
 inc index
 loop end
-
 if even == odd
 print "Yes"
 

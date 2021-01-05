@@ -103,18 +103,18 @@ public:
 };
 
 
-void get_words(std::vector<std::string>&, const std::string&);
-void create_var(const std::vector<std::string>&);
-std::string check_type(const std::string&);
-bool was_declared(const std::string&);
-int find_by_name(const std::string&);
+void get_words(std::vector<std::string>&, const std::string&); // saving words separated with space
+void create_var(const std::vector<std::string>&); // declare variable
+std::string check_type(const std::string&); // checking variable type
+bool was_declared(const std::string&); // checking if variable was declared
+int find_by_name(const std::string&); // finding variable index in variables vector 
 
-void add(int, int, int);
-void add_with_numbers(int, int, int);
+void add(int, int, int); // sum 2 variables
+void add_with_numbers(int, int, int); // sum 1 variable with number
 
-void sub(int, int, int);
-void sub_with_numbers(int, int, int);
-void sub_with_numbers_rev(int, int, int);
+void sub(int, int, int); // sub 2 variables
+void sub_with_numbers(int, int, int);// sub 1 variable with number
+void sub_with_numbers_rev(int, int, int);// sub 1 variable with number
 
 void mul(int, int, int);
 void mul_with_numbers(int, int, int);
@@ -123,11 +123,11 @@ void div(int, int, int);
 void div_with_numbers(int, int, int);
 void div_with_numbers_rev(int, int, int);
 
-void assign_variable(const std::vector<std::string>&);
+void assign_variable(const std::vector<std::string>&); // initializing variable
 
-void print_var(const std::string&);
+void print_var(const std::string&); // print variable
 
-bool check_with_numbers(const My_type&, double, const std::string&);
+bool check_with_numbers(const My_type&, double, const std::string&); // comparing variables values with numbers
 bool check_condition(const std::vector<std::string>&);
 
 void get_variables();
